@@ -1,0 +1,67 @@
+<!-- font=Inter by google font.
+All javascript and checkbox code is referenced from stack overflow. -->
+
+<html>
+    <head>
+        <title>Registration Form</title>
+
+        <link rel="icon" href = "/HTML/Form/Images/silver-oak-university.jpg" type="image/x-icon">
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+          </style>
+    </head>
+    <body class="body"> 
+        <table class="header">
+            <tr>
+                <td><img src="/HTML/Form/Images/silver-oak-university (1).webp"></td>
+
+                <td class="about"><a href="https://silveroakuni.ac.in/about"><input type="button" value="About us" class="about_inner"></a></td>
+
+                <td class="contact"><a href="https://silveroakuni.ac.in/contact"><input type="button" value="Contact us" class="contact_inner"></a></td>
+            </tr>
+        </table>
+        <center><table class="form">
+            <tr>
+                <td class="name">First Name</td>
+                <td class="name1"><input type="text" class="name1_inner"></td>
+            </tr>
+            <tr>
+                <td class="name">Last Name</td>
+                <td class="name1"><input type="text" class="name1_inner"></td>
+            </tr>
+            <tr>
+                <td class="name">Gender</td>
+                <td class="check"><input type="checkbox" id="check_inner"><label for="check" class="label">Male</label></td>
+                <td class="check"><input type="checkbox" id="check_inner"><label for="check" class="label">Female</label></td>
+            </tr>
+            <tr>
+                <td class="name">Mobile Number</td>
+                <td class="name1"><input type="number" class="name1_inner"></td>
+            </tr>
+            <tr>
+                <td class="name">Email</td>
+                <td class="name1"><input type="email" class="name1_inner"></td>
+            </tr>
+            <tr>
+                <td class="name">Address</td>
+                <td class="name1"><textarea class="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td class="name">Attach File</td>
+                <td class="name1"><input type="file" class="file"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="submit" value="submit" onClick="showMessage()" /></td>
+            </tr>
+        </table></center>
+        <div class="copyright">&copy; Arnav Patel all rights reserved</div>
+
+        <script>
+            function showMessage() {
+                alert("Thank you, your response has been recorded.");
+            }
+        </script>
+    </body>
+</html>
