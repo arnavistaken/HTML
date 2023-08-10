@@ -1,0 +1,133 @@
+.body{
+    background-color: #7dc2ad;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    background-color: #85cdca;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.about{
+    padding-left: 870px;
+    align-items: center;
+}
+.about_inner{
+    font-size: 20px;
+    border: none;
+    background-color: #85cdca;
+    font-weight: bolder;
+    color: #af6049;
+    cursor: pointer;
+}
+
+.contact{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+.contact_inner{
+    font-size: 20px;
+    border: none;
+    background-color: #85cdca;
+    font-weight: bolder;
+    color: #af6049;
+    cursor: pointer;
+}
+
+.form{
+    margin-top: 150px;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #af6049;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.name1{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.name1_inner{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.name1_inner:focus{
+    background-color: #85cdca;
+    transition: 500ms;
+}
+.check{
+    padding-left: 47px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+#check_inner{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+label{
+    color: #af6049;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-right: 30px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.textarea{
+    padding-right: 160px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.textarea:focus,::after{
+    background-color: #85cdca;
+    transition: 500ms;
+}
+.file{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+#submit{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #f38289;
+    color: whitesmoke;
+}
+.copyright{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #af6049;
+}
